@@ -22,7 +22,7 @@ $(document).ready(function(){
         $('aside').toggleClass('open');
 
     });
-    // resize para cerrar menú en cambio tamaño viewport
+    // Resize para cerrar menú en cambio tamaño
     $(window).on('resize', function(){
         $('.burger').removeClass('open');
         $('aside').removeClass('open');    
